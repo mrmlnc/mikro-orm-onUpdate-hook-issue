@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "lib": [
+            "ES2020"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "rootDir": "src",
+        "outDir": "build",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "importsNotUsedAsValues": "error",
+        "incremental": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "useDefineForClassFields": true,
+        "skipLibCheck": true
+    }
+}
